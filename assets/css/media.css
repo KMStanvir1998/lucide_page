@@ -1,0 +1,95 @@
+@media(max-width: 1199px){
+    
+}
+
+@media(max-width: 991px){
+        h1 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #fff;
+   }
+
+   p {
+    font-size: 16px;
+    color: #999999;
+    margin-right: 10px;
+    margin-left: 0px;
+   }
+
+   .btn-custom {
+    background: #008ed6;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 15px 10px;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid #99999900 !important;
+   }
+
+   .navbar-nav {
+     -ms-flex-direction: row;
+     flex-direction: row;
+     justify-content: end;
+    }
+}
+
+@media(max-width: 767px){
+    .img-fluid {
+    max-width: 60%;
+    height: auto;
+   }
+
+   .testimonials-section {
+    background-image: url(../../assets/images/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 40px 0;
+   }
+}
+
+@media(max-width: 575px){
+   .img-fluid {
+    max-width: 50%;
+    height: auto;
+   }
+
+   .navbar-nav {
+     -ms-flex-direction: column;
+     flex-direction: column;
+     align-items: flex-end;
+    }
+
+    .feature-part p {
+    font-size: 18px;
+    font-weight: 300;
+    margin: 15px 25px;
+   }
+
+   .about-left {
+    padding: 65px 0;
+    margin: 0 30px;
+   }
+
+   .pricing-table {
+    padding: 0;
+    margin: 0;
+    border: 1px solid #999999;
+    text-align: center;
+    margin-left: 95px;
+   }
+
+   .like-section {
+    background: #15141a;
+    margin-bottom: 10px;
+    padding: 25px 0;
+    padding-left: 25px;
+   }
+
+   .contact-box {
+    margin: 50px 0 60px 0px !important;
+    text-align: center;
+   }
+}
